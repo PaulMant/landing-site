@@ -1,0 +1,18 @@
+<ng-container *ngIf="isLoading; then loader else websiteContent"></ng-container>
+
+<ng-template #loader>
+  <app-global-loader></app-global-loader>
+</ng-template>
+<ng-template #websiteContent>
+  <h1 class="text-3xl font-bold underline">
+    SALUT !
+  </h1>
+  <h3>Comment puis-je vous aider ?</h3>
+  <app-changing-text></app-changing-text>
+  <h2>Mes Expériences</h2>
+  <div class="flipping-cards--container">
+    <app-flipping-card *ngFor="let experience of experiences" [experience]="experience">
+    </app-flipping-card>
+  </div>
+
+</ng-template>
