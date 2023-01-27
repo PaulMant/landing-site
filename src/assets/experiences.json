@@ -5,7 +5,7 @@
     "image": "logoNaval.svg",
     "dates": "06/2018 - 07/2022",
     "summary": "Lead Developer FullStack",
-    "details": "Développement d’une application de planification de maintenance: gestion d’équipes et d’un parc de tablettes en Angular, NodeJS et MongoDB.\nDéveloppement d’une application de gestion des flexibles par puces RFID: Angular, NodeJS et PostgreSQL.\nDéveloppement de micro-services Devops en NodeJS, création d’une CI/CD automatisée, test E2E avec Zeebee et Camunda, déploiements automatisés: git init -b mainGitlab, Docker et Kubernetes.\n"
+    "details": "Développement d’une application de planification de maintenance en Angular, NodeJS et MongoDB.\nDéveloppement d’une application de gestion des flexibles par puces RFID: Angular, NodeJS et PostgreSQL.\nDéveloppement de micro-services Devops en NodeJS, création de tests E2E automatisés avec Camunda, déploiements automatisés via Docker et Kubernetes.\n"
   },
   {
     "order": 0,
@@ -21,7 +21,7 @@
     "image": "logoSopra.svg",
     "dates": "04/2015 - 06/2018",
     "summary": "FullStack Developer",
-    "details": "Gestion d’un large panel d’applications Web et mobiles en développeur Fullstack. Utilisation des framework PHP : Symfony et Laravel ainsi qu’Ionic.\nGestion de base de données en MySQL et MsSQL. Administration de CRM, configuration de systèmes et déploiement.\nRédactions de spécifications et de jeux de tests, Administrateur Mantis, Redmine, LDAP et SVN.\n"
+    "details": "Gestion d’un large panel d’applications Web et mobiles en développeur Fullstack. PHP : Symfony et Laravel ainsi qu’Ionic.\nGestion de base de données en SQL. Administration de CRM, configuration de systèmes et déploiement.\nRédactions de spécifications et de jeux de tests, Administrateur Mantis, Redmine, LDAP et SVN.\n"
   },
   {
     "order": 3,

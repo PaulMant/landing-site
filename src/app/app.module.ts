@@ -7,10 +7,21 @@ import { FlippingCardComponent } from './ui-components/flipping-card/flipping-ca
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GlobalLoaderComponent } from './ui-components/global-loader/global-loader.component';
 import { ChangingTextComponent } from './ui-components/changing-text/changing-text.component';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { WelcomePageComponent } from './pages/welcome-page/welcome-page.component';
 import { HeaderComponent } from './header/header.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {HttpClientModule} from "@angular/common/http";
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { ContactCardComponent } from './ui-components/contact-card/contact-card.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
+import { FooterComponent } from './footer/footer.component';
+import { SkillsSectionComponent } from './skills-section/skills-section.component';
+import { FormationsSectionComponent } from './formations-section/formations-section.component';
+import { TechSkillsListComponent } from './ui-components/tech-skills-list/tech-skills-list.component';
+import {MatListModule} from "@angular/material/list";
+import { AProposPageComponent } from './pages/a-propos-page/a-propos-page.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
 
 
 @NgModule({
@@ -21,13 +32,24 @@ import {HttpClientModule} from "@angular/common/http";
     ChangingTextComponent,
     WelcomePageComponent,
     HeaderComponent,
+    ContactPageComponent,
+    ContactCardComponent,
+    FooterComponent,
+    SkillsSectionComponent,
+    FormationsSectionComponent,
+    TechSkillsListComponent,
+    AProposPageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    HttpClientModule
+    HttpClientModule,
+    MatIconModule,
+    MatButtonModule,
+    MatListModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

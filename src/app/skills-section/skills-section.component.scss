@@ -1,0 +1,25 @@
+.skills--container {
+  display: flex;
+  justify-content: space-around;
+  gap:20px;
+  background: #3d5a80;
+  margin: 16px;
+  border-radius: 10px;
+  color: white;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 11rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.tech-skill-image {
+  width: 14rem;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}

@@ -1,7 +1,7 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from "rxjs";
-import {ExperiencesService} from "../services/experiences.service";
-import {Experience} from "../interfaces/experience";
+import {ExperiencesService} from "../../services/experiences.service";
+import {Experience} from "../../interfaces/experience";
 
 @Component({
   selector: 'app-welcome-page',

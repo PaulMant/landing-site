@@ -1,4 +1,5 @@
 @use '@angular/material' as mat;
+@import '~@angular/material/theming';
 
 $primary-color: mat.define-palette(#3d5a80);
 $secondary-color:  mat.define-palette(#98c1d9);

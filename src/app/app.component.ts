@@ -6,5 +6,5 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'landing-site';
+  title = 'Paul Mantello';
 }

@@ -1,0 +1,10 @@
+<div class="card"
+     [ngClass]="text.indexOf('Linkedin') === -1 ? 'red' : 'blue'"
+     (click)="handleClick()">
+  <div class="card-info">
+    <div class="card-avatar">
+      <img [src]="logo" alt="logo">
+    </div>
+    <div class="card-title">{{text}}</div>
+  </div>
+</div>

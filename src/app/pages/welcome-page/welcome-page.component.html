@@ -1,0 +1,39 @@
+<ng-container *ngIf="isLoading; then loader else websiteContent"></ng-container>
+
+<ng-template #loader>
+  <app-global-loader></app-global-loader>
+</ng-template>
+<ng-template #websiteContent>
+  <h1 class="text-3xl font-bold">
+    Bienvenue
+  </h1>
+  <img alt="Portait de Paul Mantello" class="paul-img" src="assets/images/Paul.jpg">
+  <div class="certif--container">
+    <img alt="typescript logo" class="certif-img" src="assets/images/ts-logo.png">
+    <img alt="Certification CodinGame" class="certif-img" src="assets/images/certification-codingame.png">
+    <img alt="Résultat de 100% lors de la certification" class="certif-img" src="assets/images/with-honor.png">
+  </div>
+  <div class="quick-presentation--container">
+    <p>Paul Mantello</p>
+    <p>Tech Lead FullStack</p>
+    <p>Angular | Node.js | PHP</p>
+    <button routerLink="contact"> Contactez moi</button>
+    <h3>En quoi puis-je vous aider ?</h3>
+    <app-changing-text></app-changing-text>
+  </div>
+
+  <section>
+    <h2>Mes Expériences</h2>
+    <div class="cards--container">
+      <app-flipping-card *ngFor="let experience of experiences" [experience]="experience">
+      </app-flipping-card>
+    </div>
+  </section>
+  <section>
+    <app-skills-section></app-skills-section>
+  </section>
+  <section>
+    <app-formations-section></app-formations-section>
+  </section>
+
+</ng-template>

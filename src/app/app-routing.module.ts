@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {WelcomePageComponent} from "./welcome-page/welcome-page.component";
+import {WelcomePageComponent} from "./pages/welcome-page/welcome-page.component";
+import {ContactPageComponent} from "./pages/contact-page/contact-page.component";
+import {AProposPageComponent} from "./pages/a-propos-page/a-propos-page.component";
 
 const routes: Routes = [
-  { path: '**', component: WelcomePageComponent }
+  { path: 'home', component: WelcomePageComponent },
+  { path: '', redirectTo:'home', pathMatch:'full' },
+  { path: 'a-propos', component: AProposPageComponent },
+  { path: 'contact', component: ContactPageComponent}
 ];
 
 @NgModule({
