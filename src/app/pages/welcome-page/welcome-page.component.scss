@@ -17,65 +17,58 @@ app-flipping-card {
 
 .paul-img {
   height: 12rem;
+  width: auto;
+  margin: auto;
   border-radius: 50%;
 }
 
+h3 {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.quick-presentation--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-button--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .certif-img {
-  height: 3.5rem;
+  height: 2.5rem;
   border-radius: 9999px;
 }
 
 .certif--container {
   display: flex;
   gap: 8px;
+  padding-bottom: 3rem;
   justify-content: center;
 }
 
-button {
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
-  padding: 0.7em 2em;
-  border: 3px solid #BB001B;
-  border-radius: 8px;
-  position: relative;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  color: #BB001B;
-  text-decoration: none;
-  transition: 0.3s ease all;
-  z-index: 1;
+.full-presentation--container {
+  margin: 24px 3rem 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap:20px;
 }
 
-button:before {
-  transition: 0.5s all ease;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  opacity: 0;
-  content: '';
-  background-color: #BB001B;
-  z-index: -1;
-  transform: scaleY(1.011);
+h2 {
+  font-size: 1.8rem;
+  width: 30%;
+  padding-bottom: 24px;
 }
 
-button:hover, button:focus {
-  color: white;
-  transform: scale(1.05);
+.picture-and-logo--container {
+  margin-top: 2rem;
 }
 
-button:hover:before, button:focus:before {
-  transition: 0.5s all ease;
-  left: 0;
-  right: 0;
-  opacity: 1;
-}
-
-button:active {
-  transform: scale(0.9);
-}
 

@@ -1,12 +1,32 @@
 .presentation--container {
-  margin-left: 30px;
-  margin-right: 30px;
-  background-color: antiquewhite;
-  border-radius: 8px;
-  padding: 8px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.background--container {
+  background: url('../../../assets/images/working-paul-bg.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
-  width: 12rem;
+  width: 14rem;
+  font-weight: bold;
+  font-size: 1.8rem;
   margin: auto;
+}
+
+.contact--container {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
 }

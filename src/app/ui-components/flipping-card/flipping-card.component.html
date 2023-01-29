@@ -1,8 +1,16 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <p class="title">{{experience.name}}</p>
-      <p>Hover Me</p>
+      <img loading="lazy"
+           decoding="async"
+           role="presentation"
+           alt="Logo de l'enteprise"
+           src="assets/images/{{experience.image}}"
+      >
+      <div class="front-text--container">
+      <p>{{experience.summary}}</p>
+      <p class="dates">{{experience.dates}}</p>
+      </div>
     </div>
     <div class="flip-card-back">
       <p>{{experience.details}}</p>

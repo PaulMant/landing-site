@@ -22,6 +22,8 @@ import { TechSkillsListComponent } from './ui-components/tech-skills-list/tech-s
 import {MatListModule} from "@angular/material/list";
 import { AProposPageComponent } from './pages/a-propos-page/a-propos-page.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
+import { MatrixEffectComponent } from './ui-components/matrix-effect/matrix-effect.component';
+import { ContactButtonComponent } from './ui-components/contact-button/contact-button.component';
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     FormationsSectionComponent,
     TechSkillsListComponent,
     AProposPageComponent,
+    MatrixEffectComponent,
+    ContactButtonComponent,
   ],
   imports: [
     BrowserModule,

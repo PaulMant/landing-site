@@ -14,7 +14,8 @@
 }
 
 h1{
-  width: 12rem;
+  width: 6rem;
+  font-weight: bold;
   margin: auto;
   padding: 10px;
 }
@@ -23,7 +24,7 @@ p {
   margin: auto;
 }
 
-app-contact-card {
+app-contact-card, a {
   max-height: 4rem;
   border-radius: 1rem;
 

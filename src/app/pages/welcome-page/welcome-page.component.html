@@ -1,25 +1,33 @@
 <ng-container *ngIf="isLoading; then loader else websiteContent"></ng-container>
 
 <ng-template #loader>
-  <app-global-loader></app-global-loader>
+  <app-matrix-effect></app-matrix-effect>
 </ng-template>
 <ng-template #websiteContent>
-  <h1 class="text-3xl font-bold">
-    Bienvenue
-  </h1>
-  <img alt="Portait de Paul Mantello" class="paul-img" src="assets/images/Paul.jpg">
-  <div class="certif--container">
-    <img alt="typescript logo" class="certif-img" src="assets/images/ts-logo.png">
-    <img alt="Certification CodinGame" class="certif-img" src="assets/images/certification-codingame.png">
-    <img alt="Résultat de 100% lors de la certification" class="certif-img" src="assets/images/with-honor.png">
-  </div>
-  <div class="quick-presentation--container">
-    <p>Paul Mantello</p>
-    <p>Tech Lead FullStack</p>
-    <p>Angular | Node.js | PHP</p>
-    <button routerLink="contact"> Contactez moi</button>
-    <h3>En quoi puis-je vous aider ?</h3>
-    <app-changing-text></app-changing-text>
+  <div [@slideInOut]="displaySite">
+  <div class="full-presentation--container">
+    <div class="picture-and-logo--container">
+      <img alt="Portait de Paul Mantello" class="paul-img" src="assets/images/Paul.jpg">
+    </div>
+    <div class="quick-presentation--container">
+      <br/><br/>
+      <p>Ingénieur Développeur Indépendant</p>
+      <p>Lead Developer FullStack</p>
+      <p>Angular | Node.js | PHP</p>
+      <p>8+ années d'expériences</p>
+      <div class="certif--container">
+        <img alt="typescript logo" class="certif-img" src="assets/images/ts-logo.png">
+        <img alt="Certification CodinGame" class="certif-img" src="assets/images/certification-codingame.png">
+        <img alt="Score de 100% lors de la certification" class="certif-img" src="assets/images/with-honor.png">
+      </div>
+    </div>
+
+    <div class="contact-button--container">
+      <h3>En quoi puis-je vous aider ?</h3>
+      <app-changing-text></app-changing-text>
+      <p></p>
+      <app-contact-button></app-contact-button>
+    </div>
   </div>
 
   <section>
@@ -35,5 +43,5 @@
   <section>
     <app-formations-section></app-formations-section>
   </section>
-
+  </div>
 </ng-template>
