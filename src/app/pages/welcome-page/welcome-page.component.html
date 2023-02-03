@@ -8,13 +8,14 @@
   <div class="full-presentation--container">
     <div class="picture-and-logo--container">
       <img alt="Portait de Paul Mantello" class="paul-img" src="assets/images/Paul.jpg">
+      <app-auto-scrolling-text [text]="statusText"></app-auto-scrolling-text>
     </div>
     <div class="quick-presentation--container">
       <br/><br/>
-      <p>Ingénieur Développeur Indépendant</p>
-      <p>Lead Developer FullStack</p>
-      <p>Angular | Node.js | PHP</p>
+      <p>Freelance Lead Developer FullStack</p>
+      <p>Typescript | Angular | Node.js | PHP</p>
       <p>8+ années d'expériences</p>
+      <p>🎯 Toulon et partout ailleurs en remote</p>
       <div class="certif--container">
         <img alt="typescript logo" class="certif-img" src="assets/images/ts-logo.png">
         <img alt="Certification CodinGame" class="certif-img" src="assets/images/certification-codingame.png">
@@ -44,4 +45,6 @@
     <app-formations-section></app-formations-section>
   </section>
   </div>
+  <app-footer></app-footer>
+
 </ng-template>

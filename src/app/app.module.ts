@@ -24,6 +24,7 @@ import { AProposPageComponent } from './pages/a-propos-page/a-propos-page.compon
 import {MatSidenavModule} from "@angular/material/sidenav";
 import { MatrixEffectComponent } from './ui-components/matrix-effect/matrix-effect.component';
 import { ContactButtonComponent } from './ui-components/contact-button/contact-button.component';
+import { AutoScrollingTextComponent } from './ui-components/auto-scrolling-text/auto-scrolling-text.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { ContactButtonComponent } from './ui-components/contact-button/contact-b
     AProposPageComponent,
     MatrixEffectComponent,
     ContactButtonComponent,
+    AutoScrollingTextComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,6 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from "rxjs";
 import {ExperiencesService} from "../../services/experiences.service";
 import {Experience} from "../../interfaces/experience";
-import {Router} from "@angular/router";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 import {MatrixDisplayerService} from "../../services/matrix-displayer.service";
 
@@ -27,6 +26,7 @@ import {MatrixDisplayerService} from "../../services/matrix-displayer.service";
 export class WelcomePageComponent implements OnInit, OnDestroy {
   isLoading = true;
   displaySite = '';
+  statusText = 'Disponible à partir du 6 mars 2023';
   private experienceSub: Subscription;
   public experiences: Experience[];
 
@@ -49,9 +49,9 @@ export class WelcomePageComponent implements OnInit, OnDestroy {
         return a.order - b.order;
       })
       if (this.matrixDisplayerService.getDisplayMatrix()) {
-        await new Promise(f => setTimeout(f, 3200));
+        await new Promise(f => setTimeout(f, 3450));
         this.isLoading = false;
-        await new Promise(f => setTimeout(f, 100));
+        await new Promise(f => setTimeout(f, 5));
         this.displaySite='in';
         this.matrixDisplayerService.setDisplayMatrix(false);
       } else {

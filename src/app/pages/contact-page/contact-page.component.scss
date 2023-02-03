@@ -7,9 +7,10 @@
 }
 
 .contact--container {
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 8px;
+  background-image:url('../../../assets/images/stacked-waves-bg.svg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 8px;
 }
 
@@ -20,7 +21,10 @@ h1{
   padding: 10px;
 }
 p {
+  padding: 1rem;
   width: 80%;
+  display: flex;
+  justify-content: center;
   margin: auto;
 }
 
@@ -35,4 +39,11 @@ app-contact-card, a {
   .red:hover {
     border: 1px solid #EE6C4D;
   }
+}
+
+.target--container {
+  max-width: 100%;
+  width: 20rem;
+  margin: auto;
+  padding-top: 5rem;
 }

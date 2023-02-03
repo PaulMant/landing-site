@@ -15,8 +15,8 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
         overflow: 'hidden',
         opacity:0
       })),
-      transition('in => out', animate('3000ms ease-in-out')),
-      transition('out => in', animate('3000ms ease-in-out'))
+      transition('in => out', animate('1700ms ease-in-out')),
+      transition('out => in', animate('1700ms ease-in-out'))
     ])
   ]
 })
@@ -29,7 +29,7 @@ export class MatrixEffectComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     this.displayMatrix();
-    await new Promise(f => setTimeout(f, 1000));
+    await new Promise(f => setTimeout(f, 1750));
     this.hideProgressive='out';
 
   }

@@ -1,0 +1,23 @@
+img {
+  height: 20px;
+  width: auto;
+  margin: auto;
+}
+
+span {
+  font-size: 18px;
+}
+
+mat-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: row;
+  gap:6px;
+}

@@ -6,11 +6,13 @@ import { animate, style, transition, trigger } from '@angular/animations';
 //TODO : Déplacer dans un fichier JSON avec un service de lecture de conf.
 const WORDS = [
   'Créer une application Web ou Mobile',
-  'Proposition pour UI/UX Design',
+  'Atteindre vos objectifs',
+  'Proposer des solutions en UI/UX Design',
   'Encadrer une équipe de développeurs',
   'Réduire votre dette technique',
   'Améliorer la qualité de code',
   'Ajouter des fonctionalités',
+  'Besoin d\'un renfort expérimenté',
   'Architecturer et développer une idée'
 ];
 
