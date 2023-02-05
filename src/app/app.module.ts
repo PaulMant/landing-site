@@ -25,6 +25,8 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import { MatrixEffectComponent } from './ui-components/matrix-effect/matrix-effect.component';
 import { ContactButtonComponent } from './ui-components/contact-button/contact-button.component';
 import { AutoScrollingTextComponent } from './ui-components/auto-scrolling-text/auto-scrolling-text.component';
+import { ScrollToTopArrowComponent } from './ui-components/scroll-to-top-arrow/scroll-to-top-arrow.component';
+import { DownloadButtonComponent } from './ui-components/download-button/download-button.component';
 
 
 @NgModule({
@@ -45,6 +47,8 @@ import { AutoScrollingTextComponent } from './ui-components/auto-scrolling-text/
     MatrixEffectComponent,
     ContactButtonComponent,
     AutoScrollingTextComponent,
+    ScrollToTopArrowComponent,
+    DownloadButtonComponent,
   ],
   imports: [
     BrowserModule,

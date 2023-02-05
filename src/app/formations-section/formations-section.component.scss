@@ -7,9 +7,10 @@ h2 {
 
 ul {
   display: grid;
+  list-style: disc;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
-  background-color: #F8D78E;
+  background-color: #f9dfa5;
   padding: 16px;
   margin: 0 16px 16px;
   border-radius: 10px;

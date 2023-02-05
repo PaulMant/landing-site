@@ -12,3 +12,9 @@ h2 {
   margin: auto !important;
 }
 
+@media (max-width: 500px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+

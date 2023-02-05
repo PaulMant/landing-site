@@ -10,9 +10,9 @@ const WORDS = [
   'Proposer des solutions en UI/UX Design',
   'Encadrer une équipe de développeurs',
   'Réduire votre dette technique',
-  'Améliorer la qualité de code',
+  'Améliorer la qualité du code',
   'Ajouter des fonctionalités',
-  'Besoin d\'un renfort expérimenté',
+  'Apporter une expertise sur un projet',
   'Architecturer et développer une idée'
 ];
 
