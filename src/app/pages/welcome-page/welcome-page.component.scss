@@ -11,8 +11,20 @@
   grid-auto-flow: row;
 }
 
+h4 {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+}
+
 app-flipping-card {
   margin: auto;
+}
+
+.logo-img {
+  width: 5rem;
+  margin: auto;
+  padding-bottom: 2rem;
 }
 
 .paul-img {
@@ -68,8 +80,6 @@ app-auto-scrolling-text {
 
 h2 {
   font-size: 1.8rem;
-  width: 30%;
-  padding-bottom: 24px;
 }
 
 .picture-and-logo--container {

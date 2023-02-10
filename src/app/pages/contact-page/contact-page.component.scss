@@ -6,6 +6,13 @@
   margin-top: 28px;
 }
 
+@media (max-width: 500px) {
+  .contact-cards--container {
+    flex-direction: column;
+    gap: 80px;
+  }
+}
+
 .contact-text {
   font-size: 16px;
 }
@@ -50,4 +57,5 @@ app-contact-card, a {
   width: 20rem;
   margin: auto;
   padding-top: 5rem;
+  padding-bottom: 2rem;
 }

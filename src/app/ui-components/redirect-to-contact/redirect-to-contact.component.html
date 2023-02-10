@@ -1,0 +1,12 @@
+<mat-card [ngClass]="isHovered ? 'mat-elevation-z8' : 'mat-elevation-z1'"
+          (mouseover)="setHover($event)"
+          (mouseout)="setHover($event)"
+          (click)="goToContact()">
+  <mat-card-content>
+    <p>Vous souhaitez échanger avec moi pour de plus amples informations ? Cliquez ici !</p>
+  <mat-card-actions align="end">
+    <mat-icon>arrow_forward</mat-icon>
+    <mat-icon> mail_outline</mat-icon>
+  </mat-card-actions>
+  </mat-card-content>
+</mat-card>

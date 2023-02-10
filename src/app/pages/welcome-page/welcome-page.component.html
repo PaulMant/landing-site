@@ -17,9 +17,11 @@
       <p>8+ années d'expériences</p>
       <p>🎯 Toulon et partout ailleurs en remote</p>
       <div class="certif--container">
+        <img alt="Angular logo" class="certif-img" src="assets/images/angular-logo.png">
         <img alt="typescript logo" class="certif-img" src="assets/images/ts-logo.png">
-        <img alt="Certification CodinGame" class="certif-img" src="assets/images/certification-codingame.png">
-        <img alt="Score de 100% lors de la certification" class="certif-img" src="assets/images/with-honor.png">
+        <img alt="Nodejs logo" class="certif-img" src="assets/images/nodejs-logo.png">
+        <img alt="PHP logo" class="certif-img" src="assets/images/php-logo.png">
+        <img alt="Symfony logo" class="certif-img" src="assets/images/symfony-logo.png">
       </div>
     </div>
 
@@ -33,6 +35,7 @@
 
   <section>
     <h2>Mes Expériences</h2>
+    <h4 class="hidden-desktop">Cliquez sur une carte pour plus de détails</h4>
     <div class="cards--container">
       <app-flipping-card *ngFor="let experience of experiences" [experience]="experience">
       </app-flipping-card>
@@ -44,6 +47,15 @@
   <section>
     <app-formations-section></app-formations-section>
   </section>
+    <section>
+      <app-redirect-to-contact></app-redirect-to-contact>
+    </section>
+    <section>
+      <img class="logo-img"
+           loading="lazy"
+           decoding="async"
+           src="assets/images/pm-logo.png" alt="logo">
+    </section>
   </div>
   <app-scroll-to-top-arrow></app-scroll-to-top-arrow>
   <app-footer></app-footer>

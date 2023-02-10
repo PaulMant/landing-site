@@ -7,13 +7,20 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 h2 {
-  width: 25%;
+  width: 100%;
   text-align: center;
+  padding-bottom: 24px;
   margin: auto !important;
 }
 
 @media (max-width: 500px) {
   .hidden-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .hidden-desktop {
     display: none;
   }
 }

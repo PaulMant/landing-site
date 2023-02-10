@@ -17,6 +17,7 @@ export class MatrixDisplayerService {
   }
 
   getDisplayMatrix(): boolean {
+    return false;
     return this.displayMatrix;
   }
 }

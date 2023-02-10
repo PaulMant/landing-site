@@ -1,0 +1,27 @@
+mat-card {
+  cursor: pointer;
+  width: 95%;
+  margin: 3rem auto 3rem;
+  background: #72b4db;
+
+  mat-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    mat-card-actions {
+      width: 4rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+mat-card:hover {
+  transform: scale(1.01);
+}

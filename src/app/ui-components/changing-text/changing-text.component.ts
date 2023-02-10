@@ -11,7 +11,7 @@ const WORDS = [
   'Encadrer une équipe de développeurs',
   'Réduire votre dette technique',
   'Améliorer la qualité du code',
-  'Ajouter des fonctionalités',
+  'Construire une base de données',
   'Apporter une expertise sur un projet',
   'Architecturer et développer une idée'
 ];

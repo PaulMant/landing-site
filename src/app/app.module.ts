@@ -27,6 +27,8 @@ import { ContactButtonComponent } from './ui-components/contact-button/contact-b
 import { AutoScrollingTextComponent } from './ui-components/auto-scrolling-text/auto-scrolling-text.component';
 import { ScrollToTopArrowComponent } from './ui-components/scroll-to-top-arrow/scroll-to-top-arrow.component';
 import { DownloadButtonComponent } from './ui-components/download-button/download-button.component';
+import { RedirectToContactComponent } from './ui-components/redirect-to-contact/redirect-to-contact.component';
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -49,18 +51,20 @@ import { DownloadButtonComponent } from './ui-components/download-button/downloa
     AutoScrollingTextComponent,
     ScrollToTopArrowComponent,
     DownloadButtonComponent,
+    RedirectToContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    HttpClientModule,
-    MatIconModule,
-    MatButtonModule,
-    MatListModule,
-    MatSidenavModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        HttpClientModule,
+        MatIconModule,
+        MatButtonModule,
+        MatListModule,
+        MatSidenavModule,
+        MatCardModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
