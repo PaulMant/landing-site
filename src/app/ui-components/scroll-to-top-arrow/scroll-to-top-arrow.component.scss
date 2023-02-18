@@ -1,14 +1,21 @@
-.to-top {
-  bottom: 0;
-  cursor: pointer;
-  width: 2.4rem;
-  margin: 0 18px 12px 0;
+#back-to-top {
+  display: none;
   position: fixed;
-  right: 0;
-  opacity: 0;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #DD0031;
+  color: white;
+  cursor: pointer;
+  padding: 0.2em 0.3em;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
 }
 
-.show-scrollTop {
-  opacity: 1 !important;
-  transition: all 0.2s ease-in-out;
+#back-to-top:hover {
+  background-color: #C5002B; /* Slightly darker red */
 }
