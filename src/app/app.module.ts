@@ -14,12 +14,12 @@ import {HttpClientModule} from "@angular/common/http";
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactCardComponent } from './ui-components/contact-card/contact-card.component';
 import {MatIconModule} from "@angular/material/icon";
-import {MatButtonModule} from "@angular/material/button";
+import {MatLegacyButtonModule as MatButtonModule} from "@angular/material/legacy-button";
 import { FooterComponent } from './footer/footer.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { FormationsSectionComponent } from './formations-section/formations-section.component';
 import { TechSkillsListComponent } from './ui-components/tech-skills-list/tech-skills-list.component';
-import {MatListModule} from "@angular/material/list";
+import {MatLegacyListModule as MatListModule} from "@angular/material/legacy-list";
 import { AProposPageComponent } from './pages/a-propos-page/a-propos-page.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
 import { MatrixEffectComponent } from './ui-components/matrix-effect/matrix-effect.component';
@@ -28,7 +28,7 @@ import { AutoScrollingTextComponent } from './ui-components/auto-scrolling-text/
 import { ScrollToTopArrowComponent } from './ui-components/scroll-to-top-arrow/scroll-to-top-arrow.component';
 import { DownloadButtonComponent } from './ui-components/download-button/download-button.component';
 import { RedirectToContactComponent } from './ui-components/redirect-to-contact/redirect-to-contact.component';
-import {MatCardModule} from "@angular/material/card";
+import {MatLegacyCardModule as MatCardModule} from "@angular/material/legacy-card";
 
 
 @NgModule({
@@ -54,7 +54,7 @@ import {MatCardModule} from "@angular/material/card";
     RedirectToContactComponent,
   ],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule,
         BrowserAnimationsModule,
         MatToolbarModule,
