@@ -27,7 +27,7 @@ button:before {
   content: '';
   background-color: black;
   z-index: -1;
-  transform: scaleY(1.011);
+  transform: scale(1.011);
 }
 
 button:hover:before, button:focus:before {
