@@ -32,6 +32,10 @@ h1 {
   align-content: center;
 }
 @media (max-width: 500px) {
+  .presentation--container {
+    text-align: justify;
+  }
+  
   .contact--container {
     flex-direction: column;
   }
