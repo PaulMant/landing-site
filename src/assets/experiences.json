@@ -11,7 +11,7 @@
     "order": 0,
     "name": "La Boîte Immo",
     "image": "logo-lbi.png",
-    "dates": "07/2022 - En cours",
+    "dates": "07/2022 - 03/2022",
     "summary": "Lead FullStack Developer",
     "details": "Management d’une équipe de 6 développeurs sur un vaste parc applicatif basé sur du Laravel, Symfony et Angular.\nDéveloppement d’une application mobile destinée aux agents immobiliers en Ionic + Angular + Apollo GraphQL. Mise en place des endpoints en PHP. "
   },
