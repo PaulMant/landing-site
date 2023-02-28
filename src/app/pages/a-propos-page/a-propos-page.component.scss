@@ -35,9 +35,10 @@ h1 {
   .presentation--container {
     text-align: justify;
   }
-  
+
   .contact--container {
     flex-direction: column;
+    align-items: center;
   }
 
   app-contact-button {
