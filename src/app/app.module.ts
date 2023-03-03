@@ -29,6 +29,7 @@ import { ScrollToTopArrowComponent } from './ui-components/scroll-to-top-arrow/s
 import { DownloadButtonComponent } from './ui-components/download-button/download-button.component';
 import { RedirectToContactComponent } from './ui-components/redirect-to-contact/redirect-to-contact.component';
 import {MatLegacyCardModule as MatCardModule} from "@angular/material/legacy-card";
+import { NgOptimizedImage } from '@angular/common';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import {MatLegacyCardModule as MatCardModule} from "@angular/material/legacy-car
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
         AppRoutingModule,
+        NgOptimizedImage,
         BrowserAnimationsModule,
         MatToolbarModule,
         HttpClientModule,
