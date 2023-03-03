@@ -12,10 +12,6 @@ export class ContactCardComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  handleClick() {
-    window.open(this.link, "_blank");
-  }
 }

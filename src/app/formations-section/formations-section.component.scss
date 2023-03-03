@@ -21,9 +21,13 @@ ul {
 
 li {
   width: 300px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: list-item;
+
+  .item--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   img {
     height: 18px;
