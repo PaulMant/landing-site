@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://paul-mantello-consulting.web.app/sitemap.xml
