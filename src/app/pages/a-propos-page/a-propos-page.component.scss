@@ -10,6 +10,10 @@
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
+p {
+  font-size: 16px;
+}
+
 .background--container {
   background: url('../../../assets/images/working-paul-bg.avif') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -26,6 +30,7 @@ h1 {
 }
 
 .contact--container {
+  height: 100%;
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
