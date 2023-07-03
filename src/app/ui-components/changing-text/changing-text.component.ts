@@ -13,7 +13,8 @@ const WORDS = [
   'Améliorer la qualité du code',
   'Construire une base de données',
   'Apporter une expertise sur un projet',
-  'Architecturer et développer une idée'
+  'Architecturer et développer une idée',
+  'Une autre demande spécifique'
 ];
 
 export const fadeInOutTimeout = 250;

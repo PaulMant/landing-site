@@ -10,26 +10,33 @@
   <p class="contact-text"><strong>Prenez contact :</strong></p>
 
   <div class="contact-cards--container">
-    <app-contact-card
-      link="mailto:paulmantello@gmail.com?subject=Prise de contact"
-      logo="/assets/images/mail-icon.png"
-      text="Par E-mail"
-    ></app-contact-card>
-    <app-contact-card
-      link="https://www.linkedin.com/in/paul-m-97507b262/"
-      logo="/assets/images/linkedin-icon.svg"
-      text="Par Linkedin"
-    ></app-contact-card>
+    <div class="card red">
+      <a href="mailto:paulmantello@gmail.com?subject=Prise de contact" target="_blank">
+        <div class="card-info">
+          <div class="card-avatar">
+            <img src="/assets/images/mail-icon.png" alt="logo" />
+          </div>
+          <div class="card-title">Par E-mail</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="card blue">
+      <a href="https://www.linkedin.com/in/paul-m-97507b262/" target="_blank">
+        <div class="card-info">
+          <div class="card-avatar">
+            <img src="/assets/images/linkedin-icon.svg" alt="logo" />
+          </div>
+          <div class="card-title">Par Linkedin</div>
+        </div>
+      </a>
+    </div>
+
   </div>
   <br />
   <div class="target--container">
-    <img
-      alt="Image d'une cible atteinte"
-      ngSrc="assets/images/target2.png"
-      width="409"
-      height="250"
-    />
+    <img alt="Image d'une cible atteinte" src="assets/images/target2.png" />
   </div>
 </div>
-<app-scroll-to-top-arrow></app-scroll-to-top-arrow>
+
 <app-footer></app-footer>

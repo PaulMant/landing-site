@@ -8,6 +8,12 @@
   backdrop-filter: blur(2.3px);
   -webkit-backdrop-filter: blur(5.2px);
   border: 1px solid rgba(255, 255, 255, 0.14);
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.presentation--container::-webkit-scrollbar{
+  display: none;
 }
 
 p {
@@ -15,6 +21,7 @@ p {
 }
 
 .background--container {
+  height: 100%;
   background: url('../../../assets/images/working-paul-bg.avif') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -30,7 +37,7 @@ h1 {
 }
 
 .contact--container {
-  height: 100%;
+  height: fit-content;
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
