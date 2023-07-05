@@ -1,11 +1,12 @@
-[{
+[
+  {
   "order": 0,
   "name": "NGE",
   "image": "Logo-NGE.png",
   "dates": "03/2023 - ",
   "summary": "Senior Freelance Developer",
   "details": "Développement d'un hyperviseur permettant de piloter en direct une ville connectée. Intervention sur le frontend en Angular v15, développement de modules, d'un dashboard personalisable, gestion d'une carte.. Backend en Go et NodeJS"
-},
+  },
   {
     "order": 2,
     "name": "Naval Group",
