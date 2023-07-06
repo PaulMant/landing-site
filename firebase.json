@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist/landing-site/browser",
+    "headers": [{"key": "Cache-Control", "value": "no-cache"}],
     "ignore": [
       "firebase.json",
       "**/.*",
