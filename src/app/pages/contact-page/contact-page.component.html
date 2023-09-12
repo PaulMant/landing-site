@@ -1,13 +1,10 @@
 <div class="contact--container">
-  <h1>Contact</h1>
+  <h1>{{ 'contactHeader' | translate }}</h1>
 
   <p>
-    Vous avez un projet de développement à réaliser, besoin d'encadrer d'équipe
-    par un expert ou une autre demande concernant mes prestations, contactez-moi
-    dès à présent. Je serais ravi de mettre mes compétences et mon expérience à
-    votre service.
+    {{ 'contactDescription' | translate }}
   </p>
-  <p class="contact-text"><strong>Prenez contact :</strong></p>
+  <p class="contact-text"><strong>{{ 'contactText' | translate }}</strong></p>
 
   <div class="contact-cards--container">
     <div class="card red">
@@ -16,7 +13,7 @@
           <div class="card-avatar">
             <img src="/assets/images/mail-icon.png" alt="logo" />
           </div>
-          <div class="card-title">Par E-mail</div>
+          <div class="card-title">{{ 'contactEmail' | translate }}</div>
         </div>
       </a>
     </div>
@@ -27,16 +24,13 @@
           <div class="card-avatar">
             <img src="/assets/images/linkedin-icon.svg" alt="logo" />
           </div>
-          <div class="card-title">Par Linkedin</div>
+          <div class="card-title">{{ 'contactLinkedin' | translate }}</div>
         </div>
       </a>
     </div>
-
   </div>
   <br />
   <div class="target--container">
     <img alt="Image d'une cible atteinte" src="assets/images/target2.png" />
   </div>
 </div>
-
-<app-footer></app-footer>

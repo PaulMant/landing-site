@@ -26,7 +26,7 @@ import {MatrixDisplayerService} from "../../services/matrix-displayer.service";
 export class WelcomePageComponent implements OnInit, OnDestroy {
   isLoading = true;
   displaySite = '';
-  statusText = 'En mission jusqu\'au 30 septembre 2023';
+  statusText = 'myCurrentStatus';
   private experienceSub: Subscription;
   public experiences: Experience[];
 

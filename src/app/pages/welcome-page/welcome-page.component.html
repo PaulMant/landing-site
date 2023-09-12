@@ -23,8 +23,8 @@
           <br /><br />
           <p>Freelance Lead Developer FullStack</p>
           <p>Typescript | Angular | Node.js | PHP</p>
-          <p>8+ années d'expériences</p>
-          <p>🎯 Toulon et partout ailleurs en remote</p>
+          <p>{{ 'experienceYears' | translate }}</p>
+          <p>{{ 'location' | translate }}</p>
           <div class="certif--container">
             <img
               alt="Angular logo"
@@ -55,18 +55,16 @@
         </div>
 
         <div class="contact-button--container">
-          <h3>En quoi puis-je vous aider ?</h3>
+          <h3>{{ 'howCanIHelp' | translate }}</h3>
           <app-changing-text></app-changing-text>
           <p></p>
           <app-contact-button></app-contact-button>
         </div>
-      </div>
+        </div>
 
-      <section>
-        <h2>Mes Expériences</h2>
-        <h4 class="hidden-desktop">
-          Cliquez sur une carte pour plus de détails
-        </h4>
+        <section>
+          <h2>{{ 'myExperiences' | translate }}</h2>
+          <h4 class="hidden-desktop">{{ 'clickCardForDetails' | translate }}</h4>
         <div class="cards--container">
           <app-flipping-card
             *ngFor="let experience of experiences"

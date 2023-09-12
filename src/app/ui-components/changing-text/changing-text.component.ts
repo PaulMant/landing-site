@@ -5,16 +5,16 @@ import { animate, style, transition, trigger } from '@angular/animations';
 
 //TODO : Déplacer dans un fichier JSON avec un service de lecture de conf.
 const WORDS = [
-  'Créer une application Web ou Mobile',
-  'Atteindre vos objectifs',
-  'Proposer des solutions en UI/UX Design',
-  'Encadrer une équipe de développeurs',
-  'Réduire votre dette technique',
-  'Améliorer la qualité du code',
-  'Construire une base de données',
-  'Apporter une expertise sur un projet',
-  'Architecturer et développer une idée',
-  'Une autre demande spécifique'
+  'createApp',
+  'achieveGoals',
+  'uiUxDesign',
+  'leadTeam',
+  'reduceTechnicalDebt',
+  'improveCodeQuality',
+  'buildDatabase',
+  'provideExpertise',
+  'architectAndDevelop',
+  'otherRequest'
 ];
 
 export const fadeInOutTimeout = 250;

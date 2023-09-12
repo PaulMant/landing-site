@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,9 @@ import { getAnalytics } from "firebase/analytics";
 
 export class AppComponent {
   title = 'Paul Mantello';
+
+  public browserLang: string = '';
+  public currentLang: string = '';
 
   firebaseConfig = {
     apiKey: "AIzaSyBXsbCflkQI728fZ0Qeu8WSL5aGK4eb_Bo",
@@ -24,6 +28,15 @@ export class AppComponent {
   // Initialize Firebase
   app = initializeApp(this.firebaseConfig);
   analytics = getAnalytics(this.app);
+
+  constructor(private translate: TranslateService) {
+    translate.addLangs(["en", "fr"]);
+    translate.setDefaultLang('en');
+
+    this.browserLang = translate.getBrowserLang() ?? 'en';
+    translate.use(this.browserLang.match(/en|de|fr/) ? this.browserLang : 'en');
+    this.currentLang = this.translate.currentLang;
+  }
 
 
 }

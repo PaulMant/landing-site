@@ -29,3 +29,34 @@ h1 {
 .my-prenom {
   margin-left: 2%;
 }
+
+/* Styles for the Language Switcher Component */
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  gap: 8px;
+}
+
+.language-switcher img {
+  width: 26px; /* Adjust the size as needed */
+  height: 26px;
+  transition: transform 0.5s ease;
+}
+
+.language-switcher .arrow {
+  font-size: 10px;
+  transition: transform 0.5s ease;
+}
+
+/* Make the flag and arrow rotate on click */
+.language-switcher.active img {
+  transform: rotate(180deg);
+}
+
+.language-switcher.active .arrow {
+  transform: rotate(180deg);
+}
+

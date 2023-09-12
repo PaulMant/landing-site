@@ -11,6 +11,7 @@ export class AutoScrollingTextComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('text : ', this.text);
   }
 
 }

@@ -7,14 +7,7 @@ import {Experience} from "../../interfaces/experience";
   templateUrl: './flipping-card.component.html',
   styleUrls: ['./flipping-card.component.scss'],
 })
-export class FlippingCardComponent implements OnInit {
+export class FlippingCardComponent {
   @Input() experience: Experience;
-
-
-  constructor() { }
-
-  ngOnInit() {
-
-  }
 
 }

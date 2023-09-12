@@ -5,12 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlippingCardComponent } from './ui-components/flipping-card/flipping-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { GlobalLoaderComponent } from './ui-components/global-loader/global-loader.component';
 import { ChangingTextComponent } from './ui-components/changing-text/changing-text.component';
 import { WelcomePageComponent } from './pages/welcome-page/welcome-page.component';
 import { HeaderComponent } from './header/header.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactCardComponent } from './ui-components/contact-card/contact-card.component';
 import {MatIconModule} from "@angular/material/icon";
@@ -30,13 +29,16 @@ import { DownloadButtonComponent } from './ui-components/download-button/downloa
 import { RedirectToContactComponent } from './ui-components/redirect-to-contact/redirect-to-contact.component';
 import {MatLegacyCardModule as MatCardModule} from "@angular/material/legacy-card";
 import { NgOptimizedImage } from '@angular/common';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 @NgModule({
   declarations: [
     AppComponent,
     FlippingCardComponent,
-    GlobalLoaderComponent,
     ChangingTextComponent,
     WelcomePageComponent,
     HeaderComponent,
@@ -56,6 +58,14 @@ import { NgOptimizedImage } from '@angular/common';
   ],
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),
+        TranslateModule.forRoot({
+          defaultLanguage: 'fr',
+          loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+        }),
         AppRoutingModule,
         NgOptimizedImage,
         BrowserAnimationsModule,

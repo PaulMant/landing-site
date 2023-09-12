@@ -1,11 +1,11 @@
 [
   {
-  "order": 0,
-  "name": "NGE",
-  "image": "Logo-NGE.png",
-  "dates": "03/2023 - ",
-  "summary": "Senior Freelance Developer",
-  "details": "Développement d'un hyperviseur permettant de piloter en direct une ville connectée. Intervention sur le frontend en Angular v15, développement de modules, d'un dashboard personalisable, gestion d'une carte.. Backend en Go et NodeJS"
+    "order": 0,
+    "name": "NGE",
+    "image": "Logo-NGE.png",
+    "dates": "03/2023 - ",
+    "summary": "Senior Freelance Developer",
+    "details": "experienceDetailsNGE"
   },
   {
     "order": 2,
@@ -13,7 +13,7 @@
     "image": "logo-ng.png",
     "dates": "06/2018 - 07/2022",
     "summary": "Senior FullStack Developer",
-    "details": "Développement d’une application de planification de maintenance en Angular, NodeJS et MongoDB.\nDéveloppement d’une application de gestion des flexibles par puces RFID: Angular, NodeJS et PostgreSQL.\nDéveloppement de micro-services Devops en NodeJS, création de tests E2E automatisés avec Camunda, déploiements automatisés via Docker et Kubernetes.\n"
+    "details": "experienceDetailsNavalGroup"
   },
   {
     "order": 1,
@@ -21,7 +21,7 @@
     "image": "logo-lbi.png",
     "dates": "07/2022 - 03/2023",
     "summary": "Lead FullStack Developer",
-    "details": "Management d’une équipe de 6 développeurs sur un vaste parc applicatif basé sur du Laravel, Symfony et Angular.\nDéveloppement d’une application mobile destinée aux agents immobiliers en Ionic + Angular + Apollo GraphQL. Mise en place des endpoints en PHP. "
+    "details": "experienceDetailsLaBoiteImmo"
   },
   {
     "order": 3,
@@ -29,7 +29,7 @@
     "image": "logo-sopra.png",
     "dates": "04/2015 - 06/2018",
     "summary": "FullStack Developer",
-    "details": "Gestion d’un large panel d’applications Web et mobiles en développeur Fullstack. PHP : Symfony et Laravel ainsi qu’Ionic.\nGestion de base de données en SQL. Administration de CRM, configuration de systèmes et déploiement.\nRédactions de spécifications et de jeux de tests, Administrateur Mantis, Redmine, LDAP et SVN.\n"
+    "details": "experienceDetailsSopraSteria"
   },
   {
     "order": 4,
@@ -37,7 +37,7 @@
     "image": "logo-capgemini.png",
     "dates": "02/2015 - 04/2015",
     "summary": "Shell Developer",
-    "details": "Projet Facturation Orange : scripts Shell, VBS, ETL sous Data\nIntegrator et HP Quality Center\n"
+    "details": "experienceDetailsCapgemini"
   },
   {
     "order": 5,
@@ -45,7 +45,7 @@
     "image": "logo-thales.png",
     "dates": "02/2014 - 09/2014",
     "summary": "Java Developer",
-    "details": "Stage de fin d’études : Développement d’outils de tests automatiques : Java, HTML, Python, Jenkins.\n"
+    "details": "experienceDetailsThales"
   },
   {
     "order": 6,
@@ -53,6 +53,6 @@
     "image": "logo-atos.png",
     "dates": "04/2013- 09/2013",
     "summary": "C++ Developer",
-    "details": "Stage de M2 : Projet « Communication militaire et simulation » sous Visual Studio. Développement d'un simulateur d'équipement de communication"
+    "details": "experienceDetailsAtos"
   }
 ]

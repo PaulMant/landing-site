@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './download-button.component.html',
   styleUrls: ['./download-button.component.scss']
 })
-export class DownloadButtonComponent implements OnInit {
+export class DownloadButtonComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
