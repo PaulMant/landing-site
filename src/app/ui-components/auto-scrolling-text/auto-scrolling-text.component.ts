@@ -5,13 +5,7 @@ import {Component, Input, OnInit} from '@angular/core';
   templateUrl: './auto-scrolling-text.component.html',
   styleUrls: ['./auto-scrolling-text.component.scss']
 })
-export class AutoScrollingTextComponent implements OnInit {
+export class AutoScrollingTextComponent {
   @Input() text: string;
-
-  constructor() { }
-
-  ngOnInit(): void {
-    console.log('text : ', this.text);
-  }
 
 }

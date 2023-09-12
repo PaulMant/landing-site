@@ -31,9 +31,10 @@ export class AppComponent {
 
   constructor(private translate: TranslateService) {
     translate.addLangs(["en", "fr"]);
-    translate.setDefaultLang('en');
+    const userLang = navigator.language;
+    translate.setDefaultLang((userLang[0] + userLang[1]).toLowerCase());
 
-    this.browserLang = translate.getBrowserLang() ?? 'en';
+    this.browserLang = (userLang[0] + userLang[1]).toLowerCase() ?? 'en';
     translate.use(this.browserLang.match(/en|de|fr/) ? this.browserLang : 'en');
     this.currentLang = this.translate.currentLang;
   }

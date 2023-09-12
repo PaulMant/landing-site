@@ -19,14 +19,20 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent {
 
   isLanguageMenuOpen: boolean = false;
-  currentLanguage = 'English';
-  flagUrl: string = 'assets/images/uk-flag.webp';
+  currentLanguage: string | any;
+  flagUrl: string;
   languageList = [
     { code: 'en', label: 'English' },
     { code: 'fr', label: 'Français' },
   ];
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService) {
+
+    this.currentLanguage = translate.currentLang === 'en' ? 'English' : 'Français';
+    console.log('currentLanguage :',  this.currentLanguage);
+    this.flagUrl = translate.currentLang === 'en' ? 'assets/images/uk-flag.webp' : 'assets/images/fr.png';
+
+  }
   toggleLanguage(): void {
     if (this.currentLanguage === 'English') {
       this.translate.use('fr');
