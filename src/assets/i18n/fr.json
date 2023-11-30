@@ -87,5 +87,7 @@
   "experienceDetailsLaBoiteImmo": "Gestion d'une équipe de 6 développeurs travaillant sur un vaste parc applicatif basé sur Laravel, Symfony et Angular. Développement d'une application mobile pour les agents immobiliers en Ionic + Angular + Apollo GraphQL. Configuration des endpoints en PHP.",
   "experienceDetailsSopraSteria": "Gestion d'un large panel d'applications web et mobiles en tant que développeur Fullstack. Travaillé avec PHP : Symfony, Laravel et Ionic. Gestion de bases de données en SQL. Administration de CRM, configuration système et déploiement. Rédaction de spécifications et de jeux de tests. Administration de Mantis, Redmine, LDAP et SVN.",
   "experienceDetailsCapgemini": "Projet Facturation Orange : scripts Shell, VBS, ETL avec Data Integrator et HP Quality Center.",
-  "myCurrentStatus": "En mission jusqu'au 30 septembre"
+  "experienceDetailsThales": "Stage de fin d'étude: Test automatisés pour FREMM, Java, HTML, Python",
+  "experienceDetailsAtos": "Création d'un simulateur d'appareil encodeur de message en C++",
+  "myCurrentStatus": "En mission jusqu'au 31 décembre"
 }

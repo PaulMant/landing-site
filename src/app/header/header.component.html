@@ -8,11 +8,10 @@
 
     <span routerLink="a-propos" [routerLinkActive]="'active'">{{ 'navigation.about' | translate }}</span>
     <span routerLink="contact" [routerLinkActive]="'active'">{{ 'navigation.contact' | translate }}</span>
-    <div class="language-switcher">
+    <div class="language-switcher" (click)="toggleLanguage()">
       <img
         [src]="flagUrl"
         alt="Flag"
-        (click)="toggleLanguage()"
         [@flagAnimation]="'active'"
       />
       <span class="arrow" [class.active]="isLanguageMenuOpen">&#9660;</span>
