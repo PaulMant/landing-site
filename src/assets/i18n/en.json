@@ -34,7 +34,7 @@
   "skillsHeader": "My Skills",
   "techSkillsTitle": "Languages and Frameworks",
   "toolSkillsTitle": "Software and Professional Tools",
-  "experienceYears": "8+ years of experience",
+  "experienceYears": "9+ years of experience",
   "location": "🎯 Toulon and anywhere else remotely",
   "howCanIHelp": "How can I help you?",
   "myExperiences": "My Experiences",
@@ -89,6 +89,6 @@
   "experienceDetailsCapgemini": "Orange Billing Project: Shell, VBS, ETL scripts using Data Integrator and HP Quality Center.",
   "experienceDetailsThales": "Master's end of study internship: FREMM Simulator, E2E Testing with Java, Python and HTML",
   "experienceDetailsAtos": "Building a simulator of a message encoder using C++",
-  "myCurrentStatus": "Under contract until 31th December"
+  "myCurrentStatus": "Under contract until 30th June"
 
 }
