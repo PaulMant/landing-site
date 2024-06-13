@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { NgOptimizedImage } from '@angular/common';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { MatIconModule } from "@angular/material/icon";
 import { MatSidenavModule } from "@angular/material/sidenav";
@@ -65,7 +64,6 @@ export function HttpLoaderFactory(http: HttpClient) {
             deps: [HttpClient]
         }
         }),
-        NgOptimizedImage,
         BrowserAnimationsModule,
         MatToolbarModule,
         MatIconModule,
