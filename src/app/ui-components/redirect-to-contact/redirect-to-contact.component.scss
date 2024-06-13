@@ -4,7 +4,7 @@ mat-card {
   margin: 3rem auto 3rem;
   background: #72b4db;
 
-  mat-card-content {
+  .card-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +15,8 @@ mat-card {
       font-weight: bold;
     }
 
-    mat-card-actions {
+    .card-actions {
+      justify-content: end;
       width: 4rem;
       flex-shrink: 0;
     }

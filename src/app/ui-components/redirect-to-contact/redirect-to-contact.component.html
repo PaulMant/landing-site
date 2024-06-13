@@ -2,11 +2,11 @@
           (mouseover)="setHover($event)"
           (mouseout)="setHover($event)"
           (click)="goToContact()">
-  <mat-card-content>
+  <div class="card-content">
     <p>{{'redirectToContact' | translate}}</p>
-  <mat-card-actions align="end">
+  <div class="card-actions">
     <mat-icon>arrow_forward</mat-icon>
     <mat-icon> mail_outline</mat-icon>
-  </mat-card-actions>
-  </mat-card-content>
+  </div>
+</div>
 </mat-card>

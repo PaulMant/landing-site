@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { HttpClient, HttpClientModule, provideHttpClient } from "@angular/common/http";
 import { MatIconModule } from "@angular/material/icon";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatToolbarModule } from "@angular/material/toolbar";
@@ -55,7 +55,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     imports: [
       BrowserModule,
       AppRoutingModule,
-      HttpClientModule,
         TranslateModule.forRoot({
           defaultLanguage: 'fr',
           loader: {
@@ -69,7 +68,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         MatIconModule,
         MatSidenavModule,
     ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
