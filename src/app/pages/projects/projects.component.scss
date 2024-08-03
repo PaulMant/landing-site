@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+@property --bg-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
+  }
+}
+
+.project-card {
+  animation: spin 2.5s infinite linear paused;
+
+  /**
+   * Using `background-origin` we can create a “border” using two gradients. And to
+   * make the gradients better-looking, we use OKLCH.
+   *
+   * @see https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin
+   * @see https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl
+   */
+  background:
+    /* Background colors don’t work with `background-origin`, so use a gradient. */
+    linear-gradient(
+        to bottom,
+        oklch(0.1 0.2 240 / 0.95),
+        oklch(0.1 0.2 240 / 0.95)
+      )
+      padding-box, /* ends at inner border edges */
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        oklch(0.85 0.37 0) 0 0
+      )
+      border-box; /* extends to outer border edges */
+
+  /* a clear border lets the background gradient shine through */
+  border: 5px solid transparent;
+
+  /* unpause the animation on hover */
+  &:hover {
+    animation-play-state: running;
+  }
+}

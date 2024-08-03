@@ -5,7 +5,7 @@
     "introduction": "Je suis Paul Mantello, ingénieur indépendant et développeur de logiciels depuis bientôt 10 ans.",
     "workExperience": "J’ai travaillé pour différentes entreprises majeures de la région PACA. J’ai commencé par du développement en C++ et en Java. Je me suis rapidement spécialisé dans le Web, en débutant par du PHP.",
     "expertise": "Par la suite, je suis devenu Référent Technique sur Angular et Node.js au sein de l'entreprises Naval Group puis Lead Developer à La Boîte Immo. Ces expériences m'ont permis d'acquérir une véritable expertise dans le développement Web, notamment en Javascript/Typescript.",
-    "passion": "Je suis passionné par l'informatique et je cherche toujours à progresser en surveillant les nouveautés dans cet environnement en constante évolution. Je travaille en respectant les bests practices et en suivant l'état de l'art actuel (DDD, CQRS, Hexagonal Architecture, SOLID...). Je me forme également aux principes du web3 et j'apprends à rédiger des contracts en Solidity",
+    "passion": "Je suis passionné par l'informatique et je cherche toujours à progresser en surveillant les nouveautés dans cet environnement en constante évolution. Je travaille en respectant les bests practices et en suivant l'état de l'art actuel (DDD, CQRS, Hexagonal Architecture, SOLID...). Je me forme également aux principes du web3 et j'apprends à développer des smart-contracts en Solidity.",
     "interests": "Je suis quelqu'un de calme, réfléchi et bienveillant. J'apprécie travailler en équipe et j'ai toujours aimé partager et transmettre mes connaissances. Tout d'abord dans le sport en tant qu'entraîneur cycliste diplômé d'état, puis dans les mathématiques en tant que professeur particulier et enfin dans l'informatique dans le cadre de mon travail.",
     "freeTime": "Concernant mon temps libre j'aime profiter et partager des bons moments avec ma famille et mes amis, autour d'un bon repas 🥘, d'un super jeu de société 🃏 ou d'un jeu vidéo 🎮 par exemple.",
     "hobbies": "J'aime me ressourcer et profiter de la nature, randonner 🥾. J'apprécie aussi le sport : la course à pied 🏃, le vélo 🚴, la musculation 🏋",
@@ -14,7 +14,8 @@
   },
   "navigation": {
     "about": "À Propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "projects": "Mes Projets"
   },
   "createApp": "Créer une application Web ou Mobile",
   "achieveGoals": "Atteindre vos objectifs",
@@ -82,12 +83,12 @@
     "ukFlagAlt": "Drapeau anglais",
     "toeicLogoAlt": "Logo TOEIC"
   },
-  "experienceDetailsNGE": "Développement d'un hyperviseur permettant de piloter une ville connectée en temps réel. Travail sur le frontend en Angular v15, développement de modules, d'un tableau de bord personnalisable, gestion de la carte, et développement du backend en Go et NodeJS.",
+  "experienceDetailsNGE": "Développement d'un hyperviseur permettant de piloter une ville connectée en temps réel. Travail sur le frontend en Angular v17, développement de modules, d'un tableau de bord personnalisable temps-réel, gestion d'une carte, et développement du backend en Go et NodeJS.",
   "experienceDetailsNavalGroup": "Développement d'une application de planification de maintenance en Angular, NodeJS et MongoDB. Développement d'une application de gestion des flexibles par puces RFID en Angular, NodeJS et PostgreSQL. Développement de micro-services DevOps en NodeJS, tests E2E automatisés avec Camunda, déploiements automatisés via Docker et Kubernetes.",
   "experienceDetailsLaBoiteImmo": "Gestion d'une équipe de 6 développeurs travaillant sur un vaste parc applicatif basé sur Laravel, Symfony et Angular. Développement d'une application mobile pour les agents immobiliers en Ionic + Angular + Apollo GraphQL. Configuration des endpoints en PHP.",
   "experienceDetailsSopraSteria": "Gestion d'un large panel d'applications web et mobiles en tant que développeur Fullstack. Travaillé avec PHP : Symfony, Laravel et Ionic. Gestion de bases de données en SQL. Administration de CRM, configuration système et déploiement. Rédaction de spécifications et de jeux de tests. Administration de Mantis, Redmine, LDAP et SVN.",
   "experienceDetailsCapgemini": "Projet Facturation Orange : scripts Shell, VBS, ETL avec Data Integrator et HP Quality Center.",
   "experienceDetailsThales": "Stage de fin d'étude: Test automatisés pour FREMM, Java, HTML, Python",
   "experienceDetailsAtos": "Création d'un simulateur d'appareil encodeur de message en C++",
-  "myCurrentStatus": "En mission jusqu'au 30 juin"
+  "myCurrentStatus": "Disponible"
 }

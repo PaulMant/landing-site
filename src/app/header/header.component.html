@@ -5,9 +5,17 @@
   </span>
   <span routerLink="home" class="my-prenom hidden-mobile"><h1>Paul Mantello Consulting</h1></span>
   <div class="toolbar-right-links">
-
+    <button class="hamburger" (click)="toggleMenu()">&#9776;</button>
+                <div class="links" id="menu">
+    <!--<span routerLink="projects" [routerLinkActive]="'active'">{{ 'navigation.projects' | translate }}</span>-->
     <span routerLink="a-propos" [routerLinkActive]="'active'">{{ 'navigation.about' | translate }}</span>
     <span routerLink="contact" [routerLinkActive]="'active'">{{ 'navigation.contact' | translate }}</span>
+    <span>
+      <a href="https://github.com/PaulMant" target="_blank">
+        <img class="logo-img github" src="assets/images/github-icon.webp" alt="logo">
+      </a>
+    </span>
+    </div>
     <div class="language-switcher" (click)="toggleLanguage()">
       <img
         [src]="flagUrl"

@@ -22,7 +22,7 @@
         <div class="quick-presentation--container">
           <br /><br />
           <p>Freelance Lead Developer FullStack</p>
-          <p>Typescript | Angular | Node.js | PHP</p>
+          <p>Typescript | Angular | Node.js | React | PHP</p>
           <p>{{ 'experienceYears' | translate }}</p>
           <p>{{ 'location' | translate }}</p>
           <div class="certif--container">
@@ -40,6 +40,11 @@
               alt="Nodejs logo"
               class="certif-img"
               src="assets/images/nodejs-logo.png"
+            />
+            <img
+              alt="React logo"
+              class="certif-img"
+              src="assets/images/react-logo.png"
             />
             <img
               alt="PHP logo"
@@ -66,11 +71,10 @@
           <h2>{{ 'myExperiences' | translate }}</h2>
           <h4 class="hidden-desktop">{{ 'clickCardForDetails' | translate }}</h4>
         <div class="cards--container">
-          <app-flipping-card
-            *ngFor="let experience of experiences"
-            [experience]="experience"
-          >
-          </app-flipping-card>
+          @for(experience of experiences; track experience) {
+          <app-flipping-card [experience]="experience"></app-flipping-card>
+          }
+
         </div>
       </section>
       <section>

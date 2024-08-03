@@ -66,7 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         BrowserAnimationsModule,
         MatToolbarModule,
         MatIconModule,
-        MatSidenavModule,
+        MatSidenavModule
     ],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent]

@@ -5,7 +5,7 @@
     "introduction": "I am Paul Mantello, an independent engineer and software developer with almost 10 years of experience.",
     "workExperience": "I have worked for various major companies in the PACA region. I started with C++ and Java development and quickly specialized in the web, beginning with PHP.",
     "expertise": "Subsequently, I became a Technical Lead for Angular and Node.js at Naval Group and then a Lead Developer at La Boîte Immo. These experiences have allowed me to gain expertise in web development, particularly in JavaScript/TypeScript.",
-    "passion": "I am passionate about technology and always strive to keep up with the latest developments in this ever-changing field. I work following best practices and keeping up with current state-of-the-art techniques (DDD, CQRS, Hexagonal Architecture, SOLID, etc.). I also am a web3 enthusiast, learning how it works and how to write contracts using Solidity",
+    "passion": "I am passionate about technology and always strive to keep up with the latest developments in this ever-changing field. I work following best practices and keeping up with current state-of-the-art techniques (DDD, CQRS, Hexagonal Architecture, SOLID, etc.). I also am a web3 enthusiast, learning how it works and how to code smart-contracts using Solidity.",
     "interests": "I am calm, thoughtful, and caring. I enjoy working in team and have always liked sharing and passing on my knowledge, whether in sports as a certified cycling coach, in mathematics as a private tutor, or in the field of IT in my work.",
     "freeTime": "In my free time, I enjoy spending quality moments with my family and friends, whether it's over a delicious meal 🥘, a fun board game 🃏, or a video game 🎮.",
     "hobbies": "I also love spending time in nature, hiking 🥾, and engaging in sports such as running 🏃, cycling 🚴, and weightlifting 🏋.",
@@ -14,7 +14,8 @@
   },
   "navigation": {
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "projects": "My Projects"
   },
   "createApp": "Create a Web or Mobile Application",
   "achieveGoals": "Achieve Your Goals",
@@ -82,13 +83,13 @@
     "ukFlagAlt": "UK Flag",
     "toeicLogoAlt": "TOEIC Logo"
   },
-  "experienceDetailsNGE": "Development of a hypervisor to control a connected city in real-time. Worked on the frontend in Angular v15, developed modules, a customizable dashboard, map management, and the backend in Go and NodeJS.",
+  "experienceDetailsNGE": "Development of a hypervisor to control a connected city in real-time. Worked on the frontend in Angular v17, developed modules, a customizable realtime dashboard, map management, and the backend in Go and NodeJS.",
   "experienceDetailsNavalGroup": "Development of a maintenance planning application in Angular, NodeJS, and MongoDB. Development of an RFID chip-based flexible management application using Angular, NodeJS, and PostgreSQL. Development of DevOps microservices in NodeJS, automated E2E testing with Camunda, automated deployments via Docker and Kubernetes.",
   "experienceDetailsLaBoiteImmo": "Managed a team of 6 developers working on a large application portfolio based on Laravel, Symfony, and Angular. Developed a mobile application for real estate agents using Ionic + Angular + Apollo GraphQL. Set up PHP endpoints.",
   "experienceDetailsSopraSteria": "Managed a wide range of web and mobile applications as a Fullstack Developer. Worked with PHP: Symfony, Laravel, and Ionic. Managed databases in SQL. Administered CRM, system configuration, and deployment. Wrote specifications and test suites. Administered Mantis, Redmine, LDAP, and SVN.",
   "experienceDetailsCapgemini": "Orange Billing Project: Shell, VBS, ETL scripts using Data Integrator and HP Quality Center.",
   "experienceDetailsThales": "Master's end of study internship: FREMM Simulator, E2E Testing with Java, Python and HTML",
   "experienceDetailsAtos": "Building a simulator of a message encoder using C++",
-  "myCurrentStatus": "Under contract until 30th June"
+  "myCurrentStatus": "Available"
 
 }

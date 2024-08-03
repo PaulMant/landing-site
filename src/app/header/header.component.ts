@@ -45,4 +45,15 @@ export class HeaderComponent {
     }
   }
 
+ toggleMenu() {
+  const menu = document.getElementById('menu');
+  if (!menu) return;
+  if (menu.style.display === 'flex') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'flex';
+  }
+}
+
+
 }
